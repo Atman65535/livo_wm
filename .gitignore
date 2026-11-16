@@ -66,3 +66,19 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Dataset
+data/
+*.bag*
+
+# custom
+log/
+build/
+.cache/
+install/
+
+*/log/
+*/build/
+*/.cache/
+*/install/
+*/pyproject/
